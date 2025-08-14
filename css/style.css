@@ -214,17 +214,7 @@ a.more {
   }
 }
 
-.hero .hero-img-wrap:after {
-  content: "";
-  position: absolute;
-  width: 255px;
-  height: 217px;
-  background-image: url("../images/dots-light.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  right: -100px;
-  top: -0px;
-}
+
 
 @media (min-width: 1200px) {
   .hero .hero-img-wrap:after {
@@ -1024,4 +1014,11 @@ textarea {
   height: 50px;
   border-radius: 50%;
   background: rgba(59, 93, 80, 0.2);
+}
+@media screen and (max-width: 600px) {
+  .responsive img {
+    /* display: none; */
+    width: 100%;
+    height: auto
+  }
 }
